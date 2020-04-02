@@ -1,3 +1,8 @@
+'''Given a string, find the first non-repeating character in it
+ and return it's index. 
+ If it doesn't exist, return -1. '''
+
+
 def firstUniqChar(s: str) -> int:
         my_hash=dict()
         for i in range(len(s)):
