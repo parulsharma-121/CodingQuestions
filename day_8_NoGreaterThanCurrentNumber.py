@@ -11,15 +11,15 @@ Output: [4,0,1,1,3]
 
 
 def smallerNumbersThanCurrent(nums):
+    count=0
+    a=[]
+    for i in nums:
+        for j in nums:
+            if(i>j):
+                count+=1
+        a.append(count)
         count=0
-        a=[]
-        for i in nums:
-            for j in nums:
-                if(i>j):
-                    count+=1
-            a.append(count)
-            count=0
-        return a
+    return a
 
 nums=[8,4,3,2,2]
 print(smallerNumbersThanCurrent(nums))
