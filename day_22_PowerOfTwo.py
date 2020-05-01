@@ -1,6 +1,14 @@
+'''   
+Given an integer, write a function to determine if it is a power of two.
 
+Example 1:
 
-def isPowerOfTwo(n: int) -> bool:
+Input: 1
+Output: true 
+Explanation: 2^0 = 1
+'''
+
+def isPowerOfTwo(n):
     if(n==0):
         return False
     while(n!=1):
@@ -12,4 +20,4 @@ def isPowerOfTwo(n: int) -> bool:
 
 
 n = 28
-isPowerOfTwo(n)
+print(isPowerOfTwo(n))
