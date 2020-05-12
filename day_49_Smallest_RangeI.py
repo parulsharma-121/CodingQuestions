@@ -26,6 +26,6 @@ def smallestRangeI(A,K):
         return abs(maxim-minm)
     else:
         return 0
-    A = [1]
-    K = 0
-    print(smallestRangeI(A,K))
+A = [1]
+K = 0
+print(smallestRangeI(A,K))
