@@ -1,1 +1,1 @@
-# CodingQuestions (Leetcode solutions) in Python
+# CodingQuestions (Leetcode solutions) in Python.
